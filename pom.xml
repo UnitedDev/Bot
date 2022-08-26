@@ -4,14 +4,14 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>fr.kohei</groupId>
-    <artifactId>BOT</artifactId>
+    <groupId>fr.united</groupId>
+    <artifactId>bot</artifactId>
     <version>1.0.0</version>
 
     <repositories>
         <repository>
-            <id>kohei</id>
-            <url>https://maven.pkg.github.com/KoheiDev/BukkitAPI</url>
+            <id>united</id>
+            <url>https://maven.pkg.github.com/UnitedDev/Common</url>
         </repository>
         <repository>
             <id>jitpack.io</id>
@@ -27,9 +27,9 @@
 
     <dependencies>
         <dependency>
-            <groupId>fr.kohei</groupId>
+            <groupId>fr.uniteduhc</groupId>
             <artifactId>common</artifactId>
-            <version>2.1.1-alpha7</version>
+            <version>3.0.0</version>
             <scope>compile</scope>
         </dependency>
         <dependency>

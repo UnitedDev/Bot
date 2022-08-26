@@ -1,4 +1,4 @@
-package fr.kohei.bot.utils;
+package fr.uniteduhc.bot.utils;
 
 import org.apache.commons.lang3.time.DurationFormatUtils;
 

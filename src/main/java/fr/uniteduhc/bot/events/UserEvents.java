@@ -1,8 +1,8 @@
-package fr.kohei.bot.events;
+package fr.uniteduhc.bot.events;
 
-import fr.kohei.bot.events.impl.GuildMemberJoinListener;
-import fr.kohei.bot.events.impl.MessageReceivedListener;
-import fr.kohei.bot.events.impl.SelectionMenuListener;
+import fr.uniteduhc.bot.events.impl.GuildMemberJoinListener;
+import fr.uniteduhc.bot.events.impl.MessageReceivedListener;
+import fr.uniteduhc.bot.events.impl.SelectionMenuListener;
 import net.dv8tion.jda.api.events.GenericEvent;
 import net.dv8tion.jda.api.events.guild.member.GuildMemberJoinEvent;
 import net.dv8tion.jda.api.events.message.MessageReceivedEvent;

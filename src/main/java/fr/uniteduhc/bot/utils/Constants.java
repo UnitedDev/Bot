@@ -1,4 +1,4 @@
-package fr.kohei.bot.utils;
+package fr.uniteduhc.bot.utils;
 
 public class Constants {
 

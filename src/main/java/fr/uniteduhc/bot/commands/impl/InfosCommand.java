@@ -1,10 +1,10 @@
-package fr.kohei.bot.commands.impl;
+package fr.uniteduhc.bot.commands.impl;
 
-import fr.kohei.bot.Main;
-import fr.kohei.bot.commands.Command;
-import fr.kohei.bot.utils.TimeUtil;
-import fr.kohei.common.cache.data.ProfileData;
-import fr.kohei.common.cache.data.PunishmentData;
+import fr.uniteduhc.bot.Main;
+import fr.uniteduhc.bot.commands.Command;
+import fr.uniteduhc.bot.utils.TimeUtil;
+import fr.uniteduhc.common.cache.data.ProfileData;
+import fr.uniteduhc.common.cache.data.PunishmentData;
 import net.dv8tion.jda.api.EmbedBuilder;
 import net.dv8tion.jda.api.events.interaction.SlashCommandEvent;
 
@@ -59,7 +59,7 @@ public class InfosCommand extends Command {
         builder.addField("Hosts", "" + (data.getHosts() < 0 ? "Illimité" : data.getHosts()), true);
         builder.addField("Play Time", TimeUtil.getReallyNiceTime2(data.getPlayTime()), true);
         builder.addField("Dernière connexion", TimeUtil.formatDate(data.getLastLogin().getTime()), true);
-        builder.setFooter("Kohei'Bot", Main.getInstance().getGuild().getIconUrl());
+        builder.setFooter("United'Bot", Main.getInstance().getGuild().getIconUrl());
         int mutes = (int) Main.getInstance().getCommonAPI().getPunishments(uuid).stream()
                 .filter(punishmentData -> punishmentData.getPunishmentType() == PunishmentData.PunishmentType.MUTE)
                 .count();
@@ -69,6 +69,7 @@ public class InfosCommand extends Command {
         int blacklists = (int) Main.getInstance().getCommonAPI().getPunishments(uuid).stream()
                 .filter(punishmentData -> punishmentData.getPunishmentType() == PunishmentData.PunishmentType.BLACKLIST)
                 .count();
+
         int warns = Main.getInstance().getCommonAPI().getWarns(uuid).size();
         int reports = (int) Main.getInstance().getCommonAPI().getReports().stream()
                 .filter(report -> report.getUuid().equals(uuid)).count();

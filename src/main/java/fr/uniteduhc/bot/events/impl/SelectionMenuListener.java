@@ -1,7 +1,7 @@
-package fr.kohei.bot.events.impl;
+package fr.uniteduhc.bot.events.impl;
 
-import fr.kohei.bot.Main;
-import fr.kohei.bot.manager.TicketManager;
+import fr.uniteduhc.bot.Main;
+import fr.uniteduhc.bot.manager.TicketManager;
 import net.dv8tion.jda.api.interactions.components.selections.SelectOption;
 import net.dv8tion.jda.api.interactions.components.selections.SelectionMenuInteraction;
 

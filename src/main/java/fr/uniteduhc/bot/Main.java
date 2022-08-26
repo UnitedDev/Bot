@@ -1,15 +1,15 @@
-package fr.kohei.bot;
+package fr.uniteduhc.bot;
 
-import fr.kohei.bot.commands.CommandManager;
-import fr.kohei.bot.events.UserEvents;
-import fr.kohei.bot.manager.TicketManager;
-import fr.kohei.bot.pubsub.packets.AttemptLinkPacket;
-import fr.kohei.bot.pubsub.packets.LinkSuccessPacket;
-import fr.kohei.bot.pubsub.subscriber.LinkSuccessSubscriber;
-import fr.kohei.common.CommonProvider;
-import fr.kohei.common.api.CommonAPI;
-import fr.kohei.common.cache.data.ProfileData;
-import fr.kohei.common.utils.messaging.Pidgin;
+import fr.uniteduhc.bot.commands.CommandManager;
+import fr.uniteduhc.bot.events.UserEvents;
+import fr.uniteduhc.bot.manager.TicketManager;
+import fr.uniteduhc.bot.pubsub.packets.AttemptLinkPacket;
+import fr.uniteduhc.bot.pubsub.packets.LinkSuccessPacket;
+import fr.uniteduhc.bot.pubsub.subscriber.LinkSuccessSubscriber;
+import fr.uniteduhc.common.CommonProvider;
+import fr.uniteduhc.common.api.CommonAPI;
+import fr.uniteduhc.common.cache.data.ProfileData;
+import fr.uniteduhc.common.utils.messaging.Pidgin;
 import lombok.Getter;
 import net.dv8tion.jda.api.JDA;
 import net.dv8tion.jda.api.JDABuilder;
@@ -39,7 +39,7 @@ public class Main {
         instance = this;
 
         this.jda = JDABuilder
-                .createDefault("OTk1MDY2MzYwNDkxMTU5NjMz.G5DNj4.p66Rvv9bSjx1FgXgTyw2Sex8OPJhY8pALQcM5g")
+                .createDefault("///////////")
                 .setActivity(Activity.watching("vos messages"))
                 .setChunkingFilter(ChunkingFilter.ALL)
                 .setMemberCachePolicy(MemberCachePolicy.ALL)

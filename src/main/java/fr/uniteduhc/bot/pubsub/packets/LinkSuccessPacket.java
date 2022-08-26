@@ -1,7 +1,7 @@
-package fr.kohei.bot.pubsub.packets;
+package fr.uniteduhc.bot.pubsub.packets;
 
-import fr.kohei.common.cache.data.ProfileData;
-import fr.kohei.common.utils.messaging.pigdin.Packet;
+import fr.uniteduhc.common.cache.data.ProfileData;
+import fr.uniteduhc.common.utils.messaging.pigdin.Packet;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 

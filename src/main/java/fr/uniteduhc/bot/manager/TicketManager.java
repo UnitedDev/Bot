@@ -1,6 +1,6 @@
-package fr.kohei.bot.manager;
+package fr.uniteduhc.bot.manager;
 
-import fr.kohei.bot.Main;
+import fr.uniteduhc.bot.Main;
 import net.dv8tion.jda.api.EmbedBuilder;
 import net.dv8tion.jda.api.Permission;
 import net.dv8tion.jda.api.entities.*;

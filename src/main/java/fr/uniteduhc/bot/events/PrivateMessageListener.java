@@ -1,7 +1,7 @@
-package fr.kohei.bot.events;
+package fr.uniteduhc.bot.events;
 
-import fr.kohei.bot.Main;
-import fr.kohei.bot.manager.TicketManager;
+import fr.uniteduhc.bot.Main;
+import fr.uniteduhc.bot.manager.TicketManager;
 import net.dv8tion.jda.api.entities.User;
 import net.dv8tion.jda.api.events.message.MessageReceivedEvent;
 

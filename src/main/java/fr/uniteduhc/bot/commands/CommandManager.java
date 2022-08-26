@@ -1,6 +1,6 @@
-package fr.kohei.bot.commands;
+package fr.uniteduhc.bot.commands;
 
-import fr.kohei.bot.commands.impl.*;
+import fr.uniteduhc.bot.commands.impl.*;
 import net.dv8tion.jda.api.JDA;
 import net.dv8tion.jda.api.events.interaction.SlashCommandEvent;
 import net.dv8tion.jda.api.hooks.ListenerAdapter;
@@ -30,7 +30,5 @@ public class CommandManager extends ListenerAdapter {
                 commands.get(cmd).execute(event);
             }
         }
-
     }
-
 }

@@ -1,8 +1,8 @@
-package fr.kohei.bot.events.impl;
+package fr.uniteduhc.bot.events.impl;
 
-import fr.kohei.bot.Main;
-import fr.kohei.bot.events.PrivateMessageListener;
-import fr.kohei.bot.utils.Constants;
+import fr.uniteduhc.bot.Main;
+import fr.uniteduhc.bot.events.PrivateMessageListener;
+import fr.uniteduhc.bot.utils.Constants;
 import net.dv8tion.jda.api.EmbedBuilder;
 import net.dv8tion.jda.api.Permission;
 import net.dv8tion.jda.api.entities.Emoji;

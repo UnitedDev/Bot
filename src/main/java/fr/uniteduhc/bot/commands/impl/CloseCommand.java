@@ -1,7 +1,7 @@
-package fr.kohei.bot.commands.impl;
+package fr.uniteduhc.bot.commands.impl;
 
-import fr.kohei.bot.Main;
-import fr.kohei.bot.commands.Command;
+import fr.uniteduhc.bot.Main;
+import fr.uniteduhc.bot.commands.Command;
 import net.dv8tion.jda.api.EmbedBuilder;
 import net.dv8tion.jda.api.events.interaction.SlashCommandEvent;
 

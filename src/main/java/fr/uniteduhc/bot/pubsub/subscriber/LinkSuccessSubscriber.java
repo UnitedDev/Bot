@@ -1,10 +1,10 @@
-package fr.kohei.bot.pubsub.subscriber;
+package fr.uniteduhc.bot.pubsub.subscriber;
 
-import fr.kohei.bot.Main;
-import fr.kohei.bot.pubsub.packets.LinkSuccessPacket;
-import fr.kohei.common.cache.data.ProfileData;
-import fr.kohei.common.utils.messaging.pigdin.IncomingPacketHandler;
-import fr.kohei.common.utils.messaging.pigdin.PacketListener;
+import fr.uniteduhc.bot.Main;
+import fr.uniteduhc.bot.pubsub.packets.LinkSuccessPacket;
+import fr.uniteduhc.common.cache.data.ProfileData;
+import fr.uniteduhc.common.utils.messaging.pigdin.IncomingPacketHandler;
+import fr.uniteduhc.common.utils.messaging.pigdin.PacketListener;
 import net.dv8tion.jda.api.entities.User;
 
 public class LinkSuccessSubscriber implements PacketListener {
